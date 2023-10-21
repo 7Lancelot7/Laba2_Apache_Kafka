@@ -17,7 +17,7 @@ def send_to_kafka(message, producer, topic):
 
 def main(topic):
     # Define Kafka topic and server
-    topic = 'topic_bit_transactions'
+
     bootstrap_servers = 'localhost:9092'
 
     # Create Kafka producer

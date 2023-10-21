@@ -1,5 +1,5 @@
 from confluent_kafka import Consumer
-
+from globals import topic
 from kafka.admin import KafkaAdminClient, NewTopic
 
 def create_topic_if_not_exists(bootstrap_servers, topic):
@@ -38,5 +38,5 @@ def start_consumer(topic, bootstrap_servers):
 
 
 if __name__ == "__main__":
-    topic="topic_bit_transactions"
+
     start_consumer(topic, 'localhost:9092')
