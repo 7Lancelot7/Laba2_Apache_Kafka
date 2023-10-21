@@ -1,1 +1,1 @@
-topic = "topic_demo_bitcoin"
+topic = "topic_demo_bitcoin_b"
